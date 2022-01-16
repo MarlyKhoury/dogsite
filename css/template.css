@@ -137,3 +137,7 @@
 .six{
   position:relative; top: 10%;
 }
+
+.seven{
+  position:absolute;top:100%; right:20%;
+}
