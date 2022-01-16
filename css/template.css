@@ -1,9 +1,9 @@
 
 .header1 {
-    background-color: #664bdd;
+    background-color: #5b3aec;
     
     text-align: left;
-    /* font-size: 17px; */
+    
      color: white; 
      margin-top: 5%;
      padding-left: 5%;     
@@ -13,24 +13,34 @@
 
   .header2{ 
     background-color: #ffffff;
-    /* margin-right:10%;  */
+   
    text-align: left;
-   /* font-size: 17px; */
+   
     color: rgb(8, 8, 8); 
      padding:6%; 
-    /* padding-left:20%; */
+    
     
 
   }
 
   .header3 {
-    background-color: #664bdd;
+    background-color: #5b3aec;
     
     text-align: left;
-    /* font-size: 17px; */
+    
      color: white; 
      margin-top: 5%;
      padding-left: 5%;     
+  }
+
+  .header4{
+    background-color: #5b3aec;
+    
+    text-align: left;
+    color: white; 
+    margin-top: 5%;
+    padding: 4%; 
+    padding-bottom:10%;
   }
 
   .card-head{
@@ -83,10 +93,7 @@
         background-color: rgb(255, 255, 255);
     }
     
-          
-
-
-    
+       
       }
 
   .btn-primary{
@@ -144,8 +151,22 @@
 
 .eight{
   display:inline-flex;
-  position:relative; right:3.8%;
+  position:relative; right: 1px;
   justify-content: center;
   align-items: center;
   
+}
+
+.nine{
+  display:inline-flex;
+  position:relative; left:25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ten{
+  display:flex;
+  position:relative; right:14%; bottom:10px;
+  justify-content: center;
+  align-items: center;
 }
