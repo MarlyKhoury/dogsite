@@ -30,7 +30,8 @@
     
      color: white; 
      margin-top: 5%;
-     padding-left: 5%;     
+     padding-left: 5%; 
+         
   }
 
   .header4{
@@ -129,7 +130,8 @@
 }
 
 .three{
-  position:relative; top: 5%;
+   padding-top: 13%;
+   margin-bottom: 6%;
   
 }
 
@@ -169,4 +171,9 @@
   position:relative; right:14%; bottom:10px;
   justify-content: center;
   align-items: center;
+}
+
+.eleven{
+  margin-top: 5%;
+  padding-top:5%;
 }
