@@ -5,7 +5,8 @@
     text-align: left;
     
      color: white; 
-     margin-top: 5%;
+     margin-top: 2%;
+     margin-left: 5px;
      padding-left: 5%;     
   }
 
@@ -50,6 +51,14 @@
 
   @media (max-width: 480px) {
 
+    html,body{
+      width:100%;
+      height:100%;
+      margin:0;
+      padding:0;
+      overflow-x: hidden;
+    }
+
     .rotateMobile{
     transform: rotate(0deg);
     -ms-transform:rotate(0deg); /* IE 9 */
@@ -60,6 +69,14 @@
     }
 
     @media (min-width: 720px) {
+
+      html,body{
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+      }
 
       .rotateMobile{
       transform: rotate(30deg);
