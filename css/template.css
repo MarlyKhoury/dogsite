@@ -1,26 +1,22 @@
-body{
-  @media screen and (max-width:1200px) and (min-width:768px){
-    background-color:white;
-  }
-}
-
-
 
 /*first header*/
 .header1 {
     background-color: #5b3aec;
+    height: 55vh;
     padding-left: 10%;
-    
-    /* text-align: left;    
-     color: white; 
-     height:25%;
-     padding-top:40px;  
-     padding-left: 0.08 rem;    
-     padding-right:0.1 rem;
-     padding-bottom:0.02 rem;  */
+     
     }
 
-h6 {display:inline;}
+.title-p{
+  color:white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10%;
+  line-height: 1.5;
+  width:280px;
+}   
+
+
 
 /*features*/
 .header2{ 
@@ -28,6 +24,7 @@ h6 {display:inline;}
     text-align: left;   
     color: rgb(8, 8, 8); 
     padding:6%; 
+    position:relative;
     }
    
 
@@ -43,6 +40,12 @@ h6 {display:inline;}
      padding-left: 5%; 
          
   }
+
+
+#pricing{
+  text-align: center;
+  padding:100px;
+}
    
 
 /*the app that your dog needs*/
@@ -60,88 +63,14 @@ h6 {display:inline;}
 .card-head{
       background-color: gray;
   }
+
+.price-card{
+  padding:3% 2%;
+}
   
-
-/* dog image rotation*/
-@media (max-width: 720px) {
-
-    html,body{
-      width:100%;
-      height:100%;
-      margin:0;
-      padding:0;
-      overflow-x: hidden;
-    }
-
-    .rotateMobile{
-    transform: rotate(0deg);
-    -ms-transform:rotate(0deg); /* IE 9 */
-    -moz-transform:rotate(0deg); /* Firefox */
-    -webkit-transform:rotate(0deg); /* Safari and Chrome */
-    -o-transform:rotate(0deg); /* Opera */
-    }
-    }
-
-@media (min-width: 720px) {
-
-      html,body{
-        width:100%;
-        height:100%;
-        margin:0;
-        padding:0;
-        overflow-x: hidden;
-      }
-
-      .rotateMobile{
-      transform: rotate(25deg);
-      -ms-transform:rotate(0deg); /* IE 9 */
-      -moz-transform:rotate(0deg); /* Firefox */
-      -webkit-transform:rotate(25deg); /* Safari and Chrome */
-      -o-transform:rotate(0deg); /* Opera */
-
-      }
-
-      div.absolute {
-        position: absolute;
-        top: 50%; 
-        width:100%; 
-        height: 20%;
-        color:violet;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;    
-      }
-      
-
-    /* dog image cutter*/
-      .di {
-        position: absolute;
-        left: -125px;
-        top: 82%;
-        width: 1500px;
-        height: 30%;
-        background-color: rgb(255, 255, 255);
-    }    
-       
-      }
    
 
-  /* button colors*/
-  .btn-primary{
-    background-color: rgb(48, 44, 44);
-  }
 
-  .btn-secondary{
-    background-color: transparent;
-  }
-
-  /* first header*/
-  .im {
-    position: relative;
-    left: 20px;
-    }
 
 /*cards margin*/
 .card{
@@ -184,11 +113,10 @@ h6 {display:inline;}
 /* dog app position*/
 .eight{
   display:inline-flex;
-  position:relative; top:0.32px;
+  position:relative; top:55px; left:2px;
   justify-content: center;
-  align-items: center;
+  align-items: center;}
   
-}
 
 /*Meet my dog properties*/
 .nine{
@@ -204,7 +132,7 @@ h6 {display:inline;}
   display:flex;
   position:relative; right:14%; bottom:10px;
   justify-content: center;
-  align-items:right ;
+  align-items:right;
 }
 
 /*woof carousel*/
@@ -253,8 +181,8 @@ h6 {display:inline;}
 
 .seventeen{
   padding:0.125 rem;
-  margin:o.125 rem;
-  position:relative; top: 30px;
+  margin:0.125 rem;
+  position:relative;
 }
 
 .twenty{
@@ -281,5 +209,31 @@ h6 {display:inline;}
 /*pricing contact download*/
 .new{
   font-weight: bold;
+}
+
+
+
+.phone_image{
+  position:absolute;
+  width:20%;
+  transform:rotate(25deg);
+}
+
+@media (max-width:750px){
+  .phone_image{
+    position:static;
+    transform:rotate(0deg);
+    width:auto;
+    max-width: 300px;
+  }
+
+  #title{
+    text-align: center;
+    height:auto;
+  }
+
+  .title-p{
+    width:auto;
+  }
 }
 
