@@ -1,3 +1,11 @@
+/*removing extra white space*/
+html,body {
+  margin:0;
+  padding:0;
+  
+}
+
+
 
 /*first header*/
 .header1 {
@@ -7,6 +15,7 @@
      
     }
 
+/*meet my dog styling*/
 .title-p{
   color:white;
   font-size: 40px;
@@ -42,7 +51,8 @@
   }
 
 
-#pricing{
+#pricing { 
+  
   text-align: center;
   padding:100px;
 }
@@ -66,15 +76,13 @@
 
 .price-card{
   padding:3% 2%;
-}
+} 
   
-
-
 
 /*cards margin*/
 .card{
-  margin: 15%;
-}
+  /* margin: 10%; */
+} 
 
 /* The APP that your dog needs position*/
 .dog-needs-pos{
@@ -139,31 +147,32 @@
 }
 
 @media (max-width:750px){
-  .phone_image{
+   .phone_image{
     position:static;
     transform:rotate(0deg);
     width:auto;
     max-width: 300px;
   }
 
-  #title{
+   #title{
     text-align: center;
     height:auto;
   }
 
-  .title-p{
+   .title-p{
     width:auto;
   }
 }
 
-.package-style{
-  font-weight:bold;
-}
 
-.card-charge{
+/* .package-style{
+  font-weight:bold;
+} */
+
+/* .card-charge{
   font-size: 25px;
   font-weight: bold;
-}
+} */
 
 .button-size{
   font-size: px;
