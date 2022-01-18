@@ -68,7 +68,6 @@
   padding:3% 2%;
 }
   
-   
 
 
 
@@ -78,65 +77,32 @@
 }
 
 /* The APP that your dog needs position*/
-.one{
+.dog-needs-pos{
   position:relative; top: 45%;
 
 }
 
 /* Lbc Mtv*/
-.three{
+.lbc-mtv{
    padding-top: 13%;
    margin-bottom: 6%;
   
 }
 
 /*packages word position*/
-.four{
+.package-pos{
   position:relative; top: 80%;
 }
 
 /*"something interesting here"*/
-.five{
+.smthn-interest{
   position:relative; top: 75%;
 }
 
-/*card position*/
-.six{
-  position:relative; top: 10%;
-}
-
-
-.seven{
-  position:absolute; bottom:35%; right:20%;
-}
-
-/* dog app position*/
-.eight{
-  display:inline-flex;
-  position:relative; top:55px; left:2px;
-  justify-content: center;
-  align-items: center;}
   
-
-/*Meet my dog properties*/
-.nine{
-  font-weight: bold;
-  font-size: 47px;
-  position:relative; left:170px; bottom:90px;
-  
-  padding-left:20px;
-
-}
-
-.ten{
-  display:flex;
-  position:relative; right:14%; bottom:10px;
-  justify-content: center;
-  align-items:right;
-}
 
 /*woof carousel*/
-.eleven{
+.woof-text{
   margin-top: 3%;
   padding-top:5%;
   color:black;
@@ -152,65 +118,18 @@
   position:relative; top:190%;
   font-size:75%;
 }
+ 
 
-/*my app*/
-.thirteen{
-  display:inline-flex;
-  position:relative; left:172px; bottom:47px;
-  padding-left:20px;
-  justify-content: center;
-  align-items: center;
-}
-
-.fifteen{
-  display:inline-flex;
-  position:relative; left:25%;
-  
-}
-
-/*download button*/
-.sixteen{
-  position:relative; left:150px; bottom:45px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  justify-content: center;
-  align-items: center;
-}
-  
-
-
-.seventeen{
-  padding:0.125 rem;
-  margin:0.125 rem;
-  position:relative;
-}
-
-.twenty{
+.symbol-color{
   color: #5b3aec;
 }
 
 /*features symbols*/
-.eighteen{
+.feature-symbol{
   font-size:5rem;
   width:100%;
   text-align:center;
 }
-
-.thirty{
-  position:relative; top: 20px;
-}
-
-/*packages positions*/
-.fifty{
-  margin-left: 0.02 rem;
-  margin-right: 0.02 rem;
-}
-
-/*pricing contact download*/
-.new{
-  font-weight: bold;
-}
-
 
 
 .phone_image{
@@ -235,5 +154,18 @@
   .title-p{
     width:auto;
   }
+}
+
+.package-style{
+  font-weight:bold;
+}
+
+.card-charge{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button-size{
+  font-size: px;
 }
 
