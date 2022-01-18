@@ -9,14 +9,15 @@ body{
 /*first header*/
 .header1 {
     background-color: #5b3aec;
+    padding-left: 10%;
     
-    text-align: left;    
+    /* text-align: left;    
      color: white; 
      height:25%;
      padding-top:40px;  
      padding-left: 0.08 rem;    
      padding-right:0.1 rem;
-     padding-bottom:0.02 rem; 
+     padding-bottom:0.02 rem;  */
     }
 
 h6 {display:inline;}
