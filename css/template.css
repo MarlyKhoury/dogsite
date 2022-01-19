@@ -3,7 +3,6 @@
     background-color: #5b3aec;
     height: 65vh;
     padding-left: 15%;
-    
     padding-bottom: 30%;
      
     }
@@ -76,7 +75,7 @@
 
 /*cards margin*/
 .card{
-  /* margin: 10%; */
+ margin: 10%;
 } 
 
 /* The APP that your dog needs position*/
